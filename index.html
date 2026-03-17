@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Movie Website</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Icon -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body class="bg-dark text-white">
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+
+<div class="container">
+
+<a class="navbar-brand" href="index.html">
+<img src="https://img.favpng.com/7/15/7/the-lego-movie-lego-logo-united-states-png-favpng-RdHjswSNVcD3juFVhGQwYHAgq.jpg" width="40">
+MovieWeb
+</a>
+
+<button class="navbar-toggler"
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#navbarNav">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse" id="navbarNav">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle"
+href="#"
+data-bs-toggle="dropdown">
+ภาพยนตร์
+</a>
+
+<ul class="dropdown-menu">
+
+<li><a class="dropdown-item">Your Name</a></li>
+<li><a class="dropdown-item">Made in Abyss</a></li>
+<li><a class="dropdown-item">Doraemon</a></li>
+
+</ul>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="about.html">เกี่ยวกับเรา</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="contact.html">ติดต่อเรา</a>
+</li>
+
+</ul>
+
+</div>
+</div>
+
+</nav>
+
+
+<div class="container-fluid p-0">
+
+<img src="https://wallpaperaccess.com/full/183794.jpg"
+class="img-fluid w-100">
+
+<div class="text-center p-4 bg-dark">
+<h1>MovieWeb</h1>
+<p>ดูหนังอนิเมะ Your Name, Doraemon และอื่น ๆ</p>
+
+<a href="#" class="btn btn-danger btn-lg">
+ดูภาพยนตร์
+</a>
+
+</div>
+
+</div>
+
+<!-- Movie Cards -->
+
+<div class="container mt-5">
+
+<h2 class="text-center mb-4">ภาพยนตร์แนะนำ</h2>
+
+<div class="row">
+
+<!-- Your Name -->
+
+<div class="col-md-4 mb-4">
+<div class="card bg-dark text-white">
+
+<img src="https://image.tmdb.org/t/p/w600_and_h900_face/zyHjvVRgKOt9wgVx4ikp2kGArGF.jpg" class="card-img-top">
+
+<div class="card-body text-center">
+
+<h5>Your Name</h5>
+
+<button class="btn btn-danger"
+data-bs-toggle="modal"
+data-bs-target="#movie1">
+
+ดูรายละเอียด
+
+</button>
+
+</div>
+</div>
+</div>
+
+<!-- Made in Abyss -->
+
+<div class="col-md-4 mb-4">
+<div class="card bg-dark text-white">
+
+<img src="https://image.tmdb.org/t/p/w600_and_h900_face/sTi70ds9BQ7gzvPJb76ZPYOcPfr.jpg" class="card-img-top">
+
+<div class="card-body text-center">
+
+<h5>Made in Abyss</h5>
+
+<button class="btn btn-danger"
+data-bs-toggle="modal"
+data-bs-target="#movie2">
+ดูรายละเอียด
+</button>
+
+</div>
+</div>
+</div>
+
+<!-- Doraemon -->
+
+<div class="col-md-4 mb-4">
+<div class="card bg-dark text-white">
+
+<img src="https://image.tmdb.org/t/p/original/2jCGdsSjxvFY3J46lsMCWWwPMI7.jpg">
+
+<div class="card-body text-center">
+
+<h5>Doraemon</h5>
+
+<button class="btn btn-danger"
+data-bs-toggle="modal"
+data-bs-target="#movie3">
+ดูรายละเอียด
+</button>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- Modal -->
+
+<div class="modal fade" id="movie1">
+
+<div class="modal-dialog">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h5 class="modal-title text-dark">Your Name</h5>
+
+<button class="btn-close"
+data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body text-dark">
+
+<p><b>ผู้กำกับ :</b> Makoto Shinkai</p>
+<p><b>เรื่องย่อ :</b> เรื่องราวของเด็กหนุ่มและเด็กสาวที่สลับร่างกัน</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="modal fade" id="movie2">
+<div class="modal-dialog">
+<div class="modal-content">
+
+<div class="modal-header">
+<h5 class="modal-title text-dark">Made in Abyss</h5>
+<button class="btn-close" data-bs-dismiss="modal"></button>
+</div>
+
+<div class="modal-body text-dark">
+
+<p><b>แนว :</b> ผจญภัย / แฟนตาซี</p>
+
+<p>
+เรื่องราวของเด็กหญิงชื่อ ริโกะ ที่ออกเดินทางลงไปใน “Abyss”
+หลุมลึกปริศนา เพื่อตามหาแม่ของเธอ พร้อมกับหุ่นยนต์เด็กชาย
+ชื่อเร็ก ระหว่างทางต้องเผชิญอันตรายมากมาย
+</p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="movie3">
+<div class="modal-dialog">
+<div class="modal-content">
+
+<div class="modal-header">
+<h5 class="modal-title text-dark">Doraemon</h5>
+<button class="btn-close" data-bs-dismiss="modal"></button>
+</div>
+
+<div class="modal-body text-dark">
+
+<p><b>แนว :</b> การ์ตูน / ครอบครัว</p>
+
+<p>
+เรื่องราวของโดราเอมอน หุ่นยนต์แมวจากอนาคต
+ที่ถูกส่งมาช่วยโนบิตะ เด็กชายที่ชีวิตมีแต่ปัญหา
+โดยใช้ของวิเศษจากกระเป๋าสี่มิติ
+</p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<footer class="bg-black text-center p-4 mt-5">
+
+<div class="mb-3">
+
+<a href="#" class="text-white me-3">
+<i class="fa-brands fa-facebook fa-2x"></i>
+</a>
+
+<a href="#" class="text-white me-3">
+<i class="fa-brands fa-instagram fa-2x"></i>
+</a>
+
+<a href="#" class="text-white">
+<i class="fa-brands fa-line fa-2x"></i>
+</a>
+
+</div>
+
+<p>© 2026 Movie Website BY : 68001754 Worarit Sunwong</p>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
